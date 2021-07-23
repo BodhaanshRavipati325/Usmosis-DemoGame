@@ -1,5 +1,6 @@
 body {
     background-image: url("img/background.jpeg");
+    color: indigo;
 }
 
 #instructions {
@@ -89,6 +90,8 @@ body {
     height: 64px;
 
     text-align: center;
+
+    font-style: oblique;
 }
 
 #teamAVal {
@@ -114,6 +117,8 @@ body {
     height: 64px;
 
     text-align: center;
+
+    font-style: oblique;
 }
 
 #teamBVal {
