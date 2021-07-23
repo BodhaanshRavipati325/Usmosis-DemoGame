@@ -55,6 +55,24 @@ function decrement(code) {
     }
 }
 
+// function numberSpacing(code) {
+//     if (code === 'A' && teamAScore >= 10) {
+//         teamAVal.style.left = 255;
+//         console.log("error");
+//     }
+//     if (code === 'A' && teamAScore >= 100) {
+//         teamAVal.style.left = 245;
+//     }
+//     else {
+//         if (teamBScore >= 10) {
+//             teamBVal.style.right = 255;
+//         }
+//         if (teamBScore >= 100) {
+//             teamBVal.style.right = 245;
+//         }
+//     }
+// }
+
 function isFinished() {
     if (teamAInitialHeight === 670) {
         message.innerHTML = `Congratulations Team A!!!`
@@ -86,4 +104,7 @@ function resetGame() {
 
     teamARocket.style.bottom = 180;
     teamBRocket.style.bottom = 180;
+
+    teamAVal.style.left = 262;
+    teamBVal.style.right = 265;
 }

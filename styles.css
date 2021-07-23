@@ -113,7 +113,7 @@ body {
 #teamBVal {
     position: fixed;
     bottom: 115px;
-    right: 265px;
+    right: 262px;
 }
 
 #rocketA {
@@ -146,4 +146,5 @@ body {
     font-size: xx-large;
     font-weight: bolder;
     color: gold;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
