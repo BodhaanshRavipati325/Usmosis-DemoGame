@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UsmosX: Space Icebraker!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <link rel="icon" 
+      type="image/png" 
+      href="img/favicon.png">
+</head>
+<body>
+    <div>
+        <div id="instructions">Reach the Top First!!!</div>
+        <div id="teamA">
+            <button id="incrementA" onclick="increment('A')">ADD FUEL!!</button>
+            <button id="incrementB" onclick="increment('B')">ADD FUEL!!</button>
+            <div id="teamAScore">
+                <p id="teamAVal">0</p>
+            </div>
+        </div>
+        <div id="teamB">
+            <button id="decrementA" onclick="decrement('A')">STEAL FUEL!!</button>
+            <button id="decrementB" onclick="decrement('B')">STEAL FUEL!!</button>
+            <div id="teamBScore">
+                <p id="teamBVal">0</p>
+            </div>
+        </div>
+        <div id="rocketA" />
+        <div id="rocketB" />
+        <div id="congratulations">
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

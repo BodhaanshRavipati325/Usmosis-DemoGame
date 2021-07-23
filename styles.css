@@ -1,0 +1,149 @@
+body {
+    background-image: url("img/background.jpeg");
+}
+
+#instructions {
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    position: fixed;
+    bottom: 50px;
+    left: 500px;
+}
+
+#incrementA {
+    background-image: url("img/redButtonSmall.png");
+    width: 160px;
+    height: 61px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bolder;
+
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+}
+
+#incrementB {
+    background-image: url("img/redButtonSmall.png");
+    width: 160px;
+    height: 61px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bolder;
+
+    position: fixed;
+    bottom: 50px;
+    right: 290px;
+}
+
+#decrementA {
+    background-image: url("img/blueButtonSmall.png");
+    width: 160px;
+    height: 61px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bolder;
+
+    position: fixed;
+    bottom: 50px;
+    left: 290px;
+}
+
+#decrementB {
+    background-image: url("img/blueButtonSmall.png");
+    width: 160px;
+    height: 61px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bolder;
+
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+}
+
+#teamAScore {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+    position: fixed;
+    bottom: 150px;
+    left: 250px;
+
+    background-image: url("img/fire.png");
+
+    width: 47px;
+    height: 64px;
+}
+
+#teamAVal {
+    position: fixed;
+    bottom: 115px;
+    left: 262px;
+}
+
+#teamBScore {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+    position: fixed;
+    bottom: 150px;
+    right: 250px;
+
+    background-image: url("img/fire.png");
+
+    width: 47px;
+    height: 64px;
+}
+
+#teamBVal {
+    position: fixed;
+    bottom: 115px;
+    right: 265px;
+}
+
+#rocketA {
+    background-image: url("img/rocket.png");
+
+    width: 29px;
+    height: 136px;
+
+    position: fixed;
+    bottom: 180px;
+    left: 258px;
+}
+
+#rocketB {
+    background-image: url("img/rocket.png");
+
+    width: 29px;
+    height: 136px;
+
+    position: fixed;
+    bottom: 180px;
+    right: 258px;
+}
+
+#congratulations {
+    position: fixed;
+    top: 100px;
+    left: 475px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: gold;
+}
