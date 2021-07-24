@@ -1,6 +1,8 @@
 body {
     background-image: url("img/background.jpeg");
     color: indigo;
+    width: 100%;
+    height: 100%;
 }
 
 #instructions {
@@ -12,7 +14,7 @@ body {
 
     position: fixed;
     bottom: 50px;
-    left: 500px;
+    left: 35%;
 }
 
 #incrementA {
@@ -30,6 +32,18 @@ body {
     left: 100px;
 }
 
+#incrementAInstructions {
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    position: fixed;
+    left: 170px;
+    top: 575px;
+}
+
 #incrementB {
     background-image: url("img/redButtonSmall.png");
     width: 160px;
@@ -43,6 +57,18 @@ body {
     position: fixed;
     bottom: 50px;
     right: 290px;
+}
+
+#incrementBInstructions {
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    position: fixed;
+    right: 170px;
+    top: 575px;
 }
 
 #decrementA {
@@ -60,6 +86,18 @@ body {
     left: 290px;
 }
 
+#decrementAInstructions {
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    position: fixed;
+    top: 575px;
+    left: 360px;
+}
+
 #decrementB {
     background-image: url("img/blueButtonSmall.png");
     width: 160px;
@@ -73,6 +111,18 @@ body {
     position: fixed;
     bottom: 50px;
     right: 100px;
+}
+
+#decrementBInstructions {
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    position: fixed;
+    top: 575px;
+    right: 360px;
 }
 
 #teamAScore {
@@ -154,7 +204,7 @@ body {
 #congratulations {
     position: fixed;
     top: 100px;
-    left: 475px;
+    left: 33%;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bolder;

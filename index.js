@@ -32,17 +32,16 @@ document.addEventListener("keypress", function(event) {
 
 function increment(code) {
     if (code === 'A') {
-        teamAScore++;
+        teamAScore = teamAScore + 5;
         teamAVal.innerHTML = teamAScore;
-        console.log("hey");
-        teamAInitialHeight++;
+        teamAInitialHeight = teamAInitialHeight + 5;
         teamARocket.style.bottom = `${teamAInitialHeight}px`;
         isFinished();
     }
     else {
-        teamBScore++;
+        teamBScore = teamBScore + 5;
         teamBVal.innerHTML = teamBScore;
-        teamBInitialHeight++;
+        teamBInitialHeight = teamBInitialHeight + 5;
         teamBRocket.style.bottom = `${teamBInitialHeight}px`;
         isFinished();
     }
