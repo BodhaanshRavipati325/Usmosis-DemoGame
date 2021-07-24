@@ -18,6 +18,17 @@ let teamBInitialHeight = 180;
 
 let message = document.getElementById("message");
 
+document.addEventListener("keypress", function(event) {
+    if (event.key === 'w')
+        increment('A');
+    if (event.key === 's')
+        decrement('B');
+    if (event.key === 'o')
+        increment('B');
+    if (event.key === 'l')
+        decrement('A');
+})
+
 
 function increment(code) {
     if (code === 'A') {
