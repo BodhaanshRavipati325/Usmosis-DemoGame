@@ -84,11 +84,11 @@ function decrement(code) {
 // }
 
 function isFinished() {
-    if (teamAInitialHeight === 670) {
+    if (teamAInitialHeight >= window.innerHeight) {
         message.innerHTML = `Congratulations Team A!!!`
         resetGame();
     }
-    else if (teamBInitialHeight === 670) {
+    else if (teamBInitialHeight >= window.innerheight) {
         message.innerHTML = `Congratulations Team B!!!`
         resetGame();
     }

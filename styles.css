@@ -13,8 +13,8 @@ body {
     font-weight: bolder;
 
     position: fixed;
-    bottom: 50px;
-    left: 35%;
+    top: 50px;
+    left: 33%;
 }
 
 #incrementA {
@@ -41,7 +41,9 @@ body {
 
     position: fixed;
     left: 170px;
-    top: 575px;
+    bottom: 0px;
+
+    z-index: 10000;
 }
 
 #incrementB {
@@ -68,7 +70,9 @@ body {
 
     position: fixed;
     right: 170px;
-    top: 575px;
+    bottom: 0px;
+
+    z-index: 10000;
 }
 
 #decrementA {
@@ -94,8 +98,10 @@ body {
     font-weight: bolder;
 
     position: fixed;
-    top: 575px;
+    bottom: 0px;
     left: 360px;
+
+    z-index: 10000;
 }
 
 #decrementB {
@@ -121,8 +127,10 @@ body {
     font-weight: bolder;
 
     position: fixed;
-    top: 575px;
+    bottom: 0px;
     right: 360px;
+
+    z-index: 10000;
 }
 
 #teamAScore {
