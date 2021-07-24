@@ -219,3 +219,21 @@ body {
     color: gold;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+#teamAWins {
+    font-size: large;
+    color: goldenrod;
+
+    position: relative;
+    bottom: 500px;
+    right: 200px;
+}
+
+#teamBWins {
+    font-size: large;
+    color: goldenrod;
+
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+}

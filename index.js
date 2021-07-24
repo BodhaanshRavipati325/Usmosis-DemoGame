@@ -8,7 +8,12 @@ let teamAVal = document.getElementById("teamAVal");
 let teamBVal = document.getElementById("teamBVal");
 
 let teamAScore = 0;
+let teamAWinCount = document.getElementById("teamAWins");
+let teamAWins = 0;
+
 let teamBScore = 0;
+let teamBWinCount = document.getElementById("teamBWins");
+let teamBWIns = 0;
 
 let teamARocket = document.getElementById("rocketA");
 let teamAInitialHeight = 180;
@@ -87,11 +92,15 @@ function decrement(code) {
 function isFinished() {
     if (teamAInitialHeight >= window.innerHeight) {
         message.innerHTML = `Congratulations Team A!!!`;
+        teamAWins++;
+        teamAWinCount.innerHTML = `Team A Wins: ${teamAWins}`
         resetGame();
     }
     if (teamBInitialHeight >= window.innerHeight) {
         console.log("bug");
         message.innerHTML = `Congratulations Team B!!!`;
+        teamBWins++;
+        teamBWinCount.innerHTML = `Team B Wins: ${teamBWins}`
         resetGame();
     }
 }
