@@ -43,6 +43,7 @@ function increment(code) {
         teamBVal.innerHTML = teamBScore;
         teamBInitialHeight = teamBInitialHeight + 5;
         teamBRocket.style.bottom = `${teamBInitialHeight}px`;
+        console.log("hey");
         isFinished();
     }
 }
@@ -85,11 +86,12 @@ function decrement(code) {
 
 function isFinished() {
     if (teamAInitialHeight >= window.innerHeight) {
-        message.innerHTML = `Congratulations Team A!!!`
+        message.innerHTML = `Congratulations Team A!!!`;
         resetGame();
     }
-    else if (teamBInitialHeight >= window.innerheight) {
-        message.innerHTML = `Congratulations Team B!!!`
+    if (teamBInitialHeight >= window.innerHeight) {
+        console.log("bug");
+        message.innerHTML = `Congratulations Team B!!!`;
         resetGame();
     }
 }
